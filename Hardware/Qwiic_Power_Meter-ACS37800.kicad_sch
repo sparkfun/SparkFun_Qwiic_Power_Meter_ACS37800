@@ -1322,7 +1322,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Basic 0.1\" PTH"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1392,7 +1392,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Connector:Conn_01x01_0.4"
+		(symbol "SparkFun-Connector:Conn_01x01_0.4in"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1414,7 +1414,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x01_0.4"
+			(property "Footprint" "SparkFun-Connector:1x01_0.4in"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1441,7 +1441,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun connector"
+			(property "ki_keywords" "SparkFun connector solder lug 0.4\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1459,7 +1459,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_0.4_1_1"
+			(symbol "Conn_01x01_0.4in_1_1"
 				(rectangle
 					(start -1.27 0.127)
 					(end 0 -0.127)
@@ -1542,7 +1542,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Basic 0.1\" PTH"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1721,7 +1721,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2093,7 +2093,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Semiconductor-Standard:SO-16_WIDE_POWER"
+			(property "Footprint" "SparkFun-Semiconductor-Standard:SO-16_Wide_Power"
 				(at 0.762 -19.05 0)
 				(effects
 					(font
@@ -5509,7 +5509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x01_0.4")
+		(lib_id "SparkFun-Connector:Conn_01x01_0.4in")
 		(at 142.24 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5537,7 +5537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_0.4"
+		(property "Footprint" "SparkFun-Connector:1x01_0.4in"
 			(at 142.24 163.83 0)
 			(effects
 				(font
@@ -5595,7 +5595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "HI"
+		(property "Value" "Conn_01x01"
 			(at 73.66 44.4499 0)
 			(effects
 				(font
@@ -5622,7 +5622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 76.2 34.29 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 101.6 190.5 0)
 			(effects
 				(font
@@ -6001,7 +6001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 142.24 171.45 0)
 			(effects
 				(font
@@ -6068,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 101.6 171.45 0)
 			(effects
 				(font
@@ -6565,7 +6565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 142.24 163.83 0)
 			(effects
 				(font
@@ -6604,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Value" "I²C"
+		(property "Value" "~"
 			(at 217.17 46.99 0)
 			(effects
 				(font
@@ -7154,7 +7154,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x01_0.4")
+		(lib_id "SparkFun-Connector:Conn_01x01_0.4in")
 		(at 142.24 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7182,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_0.4"
+		(property "Footprint" "SparkFun-Connector:1x01_0.4in"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -7316,7 +7316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
 			(at 53.34 193.04 0)
 			(effects
 				(font
@@ -7532,7 +7532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VINN"
+		(property "Value" "~"
 			(at 108.458 52.07 90)
 			(effects
 				(font
@@ -7814,7 +7814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "IP+"
+		(property "Value" "~"
 			(at 78.74 36.83 0)
 			(effects
 				(font
@@ -7971,7 +7971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
 			(at 53.34 167.64 0)
 			(effects
 				(font
@@ -8053,7 +8053,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "~"
 			(at 219.71 113.03 90)
 			(effects
 				(font
@@ -8209,7 +8209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SO-16_WIDE_POWER"
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SO-16_Wide_Power"
 			(at 94.742 124.46 0)
 			(effects
 				(font
@@ -8543,7 +8543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LO"
+		(property "Value" "Conn_01x01"
 			(at 73.66 46.9899 0)
 			(effects
 				(font
@@ -8570,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -8638,7 +8638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 101.6 193.04 0)
 			(effects
 				(font
