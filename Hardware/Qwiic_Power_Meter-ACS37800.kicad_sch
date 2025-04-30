@@ -1514,7 +1514,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Conn_01x04"
+		(symbol "SparkFun-Connector:I2C_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1530,7 +1530,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
+			(property "Value" "I2C"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1539,7 +1539,7 @@
 				)
 			)
 			(property "Footprint" "SparkFun-Connector:1x04"
-				(at 0 -10.16 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1548,7 +1548,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -12.7 0)
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1556,8 +1556,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Basic 0.1\" PTH"
-				(at 0 -15.24 0)
+			(property "Description" "Coomon 4 pin PTH connector for I2C"
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1583,10 +1583,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "I2C_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1597,7 +1597,7 @@
 				)
 				(rectangle
 					(start -1.27 2.667)
-					(end 0 2.413)
+					(end -0.508 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1608,7 +1608,7 @@
 				)
 				(rectangle
 					(start -1.27 0.127)
-					(end 0 -0.127)
+					(end -0.508 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1619,7 +1619,7 @@
 				)
 				(rectangle
 					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(end -0.508 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1630,7 +1630,7 @@
 				)
 				(rectangle
 					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(end -0.508 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1639,17 +1639,49 @@
 						(type none)
 					)
 				)
+				(text "SCL"
+					(at 1.27 2.54 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "SDA"
+					(at 1.27 0 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "3V3"
+					(at 1.27 -2.54 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "GND"
+					(at 1.27 -5.08 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1659,24 +1691,6 @@
 				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1694,16 +1708,34 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_4"
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4017,7 +4049,7 @@
 		)
 		(uuid "36174737-d4e2-48ad-8acf-79a062ebf844")
 	)
-	(text "Cut the PWR jumper to\ndisable the PWR LED"
+	(text "Cut the \"LED\" jumper to\ndisable the PWR LED"
 		(exclude_from_sim no)
 		(at 219.202 128.778 0)
 		(effects
@@ -4048,7 +4080,7 @@
 		)
 		(uuid "921e05ed-8d3e-495a-bec7-da7ae7b78cef")
 	)
-	(text "ACS37800"
+	(text "Power Monitoring IC - ACS37800"
 		(exclude_from_sim no)
 		(at 93.726 79.248 0)
 		(effects
@@ -6075,82 +6107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x04")
-		(at 101.6 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3856b08f-a2a9-42e1-835e-453ded46c6e8")
-		(property "Reference" "J2"
-			(at 104.14 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 104.14 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:1x04"
-			(at 101.6 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Basic 0.1\" PTH"
-			(at 101.6 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a045d634-8822-4132-9e66-46585eb50c01")
-		)
-		(pin "2"
-			(uuid "44fadc9b-4de6-4ce3-b83f-a16d97dc7792")
-		)
-		(pin "3"
-			(uuid "9fe7305c-f2ae-4de1-8dde-f6b58da7193c")
-		)
-		(pin "4"
-			(uuid "a6d25383-295c-407e-8ab4-04415e93e986")
-		)
-		(instances
-			(project "Qwiic_Power_Meter-ACS37800"
-				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-LED:LED_Red_0603")
 		(at 217.17 104.14 90)
 		(unit 1)
@@ -8094,10 +8050,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bcf17ac7-3035-401e-85b1-135767d6d809")
-		(property "Reference" "JP1"
-			(at 219.71 111.1249 90)
+		(property "Reference" "LED"
+			(at 219.71 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8105,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "JP1")
+					(reference "LED")
 					(unit 1)
 				)
 			)
@@ -8849,6 +8804,82 @@
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:I2C_01x04")
+		(at 101.6 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd14029c-9cee-4112-bf37-a2888dbf58c7")
+		(property "Reference" "J12"
+			(at 106.68 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2C"
+			(at 106.68 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:1x04"
+			(at 101.6 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Coomon 4 pin PTH connector for I2C"
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f6f08ee-df53-4ea5-8b18-3b931a8acbec")
+		)
+		(pin "3"
+			(uuid "d933a0d3-94f0-4882-aa5b-1ec549211805")
+		)
+		(pin "1"
+			(uuid "93476932-bccd-4b32-9156-6d731f37651c")
+		)
+		(pin "2"
+			(uuid "ad7e1a7f-3c52-4903-a307-0f46714ceada")
+		)
+		(instances
+			(project ""
+				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
+					(reference "J12")
 					(unit 1)
 				)
 			)
