@@ -6602,10 +6602,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "641e2463-2501-41f2-b0d2-efd21b788107")
-		(property "Reference" "JP2"
-			(at 217.17 44.45 0)
+		(property "Reference" "I2C"
+			(at 217.17 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +6658,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "JP2")
+					(reference "I2C")
 					(unit 1)
 				)
 			)
@@ -7530,14 +7529,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99780d2d-e37c-4b35-9f54-d12955e83dfc")
-		(property "Reference" "JP4"
-			(at 109.22 51.4349 90)
+		(property "Reference" "VINN"
+			(at 108.712 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -7585,7 +7583,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "JP4")
+					(reference "VINN")
 					(unit 1)
 				)
 			)
@@ -7811,15 +7809,13 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b90c411b-4baa-42e0-8a7e-b5eab463d89f")
-		(property "Reference" "JP3"
-			(at 78.74 34.29 0)
+		(property "Reference" "IP+"
+			(at 78.994 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -7866,7 +7862,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "JP3")
+					(reference "IP+")
 					(unit 1)
 				)
 			)
