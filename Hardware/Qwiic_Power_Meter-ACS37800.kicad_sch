@@ -6603,7 +6603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "641e2463-2501-41f2-b0d2-efd21b788107")
-		(property "Reference" "I2C"
+		(property "Reference" "I2C1"
 			(at 217.17 43.434 0)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "I2C")
+					(reference "I2C1")
 					(unit 1)
 				)
 			)
@@ -7529,7 +7529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99780d2d-e37c-4b35-9f54-d12955e83dfc")
-		(property "Reference" "VINN"
+		(property "Reference" "VINN1"
 			(at 108.712 52.07 90)
 			(effects
 				(font
@@ -7583,7 +7583,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "VINN")
+					(reference "VINN1")
 					(unit 1)
 				)
 			)
@@ -7810,7 +7810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b90c411b-4baa-42e0-8a7e-b5eab463d89f")
-		(property "Reference" "IP+"
+		(property "Reference" "IP+1"
 			(at 78.994 36.322 0)
 			(effects
 				(font
@@ -7862,7 +7862,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "IP+")
+					(reference "IP+1")
 					(unit 1)
 				)
 			)
@@ -8047,7 +8047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcf17ac7-3035-401e-85b1-135767d6d809")
-		(property "Reference" "LED"
+		(property "Reference" "LED1"
 			(at 219.71 112.014 90)
 			(effects
 				(font
@@ -8101,7 +8101,7 @@
 		(instances
 			(project "Qwiic_Power_Meter-ACS37800"
 				(path "/0f119e45-4347-4dd0-98e1-ad61d69534b1"
-					(reference "LED")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
