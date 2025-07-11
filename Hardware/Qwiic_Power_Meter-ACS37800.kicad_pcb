@@ -7,6 +7,14 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "SparkFun Power Meter ACS37800")
+		(date "2025-07-11")
+		(rev "v10")
+		(company "SparkFun Electronics")
+		(comment 1 "Design By: Nick Poole")
+		(comment 2 "Revised By: Elias Santistevan")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -73,7 +81,7 @@
 				(type "Bottom Silk Screen")
 				(color "#FFFFFFFF")
 			)
-			(copper_finish "None")
+			(copper_finish "HAL lead-free")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.05)
@@ -9191,6 +9199,102 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "Silkscreen Color: White"
+		(at 222.8725 175.2925 0)
+		(layer "Eco1.User")
+		(uuid "289548be-8766-45c3-867d-17c56c06f293")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Thickness: 1.6mm"
+		(at 222.8725 179.1025 0)
+		(layer "Eco1.User")
+		(uuid "2c47cf10-7c6b-4646-a4a3-9974707d8eb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Solder Mask: Red"
+		(at 222.8725 173.3875 0)
+		(layer "Eco1.User")
+		(uuid "2da3af05-079d-4dd3-95a6-54c37d3298ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Finish: HASL Lead-Free"
+		(at 222.8725 181.0075 0)
+		(layer "Eco1.User")
+		(uuid "4bd01255-9d6b-41e2-9534-62319065f1fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Ordering Notes"
+		(at 216.5225 170.2125 0)
+		(layer "Eco1.User")
+		(uuid "7dcf9d4e-9ca5-4e2d-be42-098e4e970735")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Outer Copper Weight: 1oz"
+		(at 253.3525 177.515 0)
+		(layer "Eco1.User")
+		(uuid "949a763f-99a5-4ce6-b1f7-f0d12b847842")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Layers: 2"
+		(at 222.823392 177.1975 0)
+		(layer "Eco1.User")
+		(uuid "b1b0adb4-7951-4c89-bf64-6661c9d980e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Material: TG135"
+		(at 253.3525 175.2925 0)
+		(layer "Eco1.User")
+		(uuid "e64ac3b0-4977-4e0c-8ef8-b10f75745869")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
@@ -9217,7 +9321,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.5 in"
+		(gr_text "12.7 mm"
 			(at 138.1125 118.23 0)
 			(layer "Dwgs.User")
 			(uuid "0e9d28bc-6656-4242-9b94-d67ed62c6c81")
@@ -9255,7 +9359,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.5 in"
+		(gr_text "38.1 mm"
 			(at 111.5625 96.8375 90)
 			(layer "Dwgs.User")
 			(uuid "14654c13-65a1-440e-bcde-eade27f64bff")
@@ -9293,7 +9397,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.7 in"
+		(gr_text "17.78 mm"
 			(at 115.69 106.9975 90)
 			(layer "Dwgs.User")
 			(uuid "4565b4d2-73c8-4a77-a55c-ba7f3ce86364")
@@ -9331,7 +9435,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.2 in"
+		(gr_text "30.48 mm"
 			(at 138.1125 122.6115 0)
 			(layer "Dwgs.User")
 			(uuid "58a917a6-cdda-40a7-a5f6-8b4d8686f073")
@@ -9369,7 +9473,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.35 in"
+		(gr_text "8.89 mm"
 			(at 127.3175 118.23 0)
 			(layer "Dwgs.User")
 			(uuid "97471dfd-11c8-43c7-844a-2aa77efadbb2")
@@ -9407,7 +9511,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.2625 in"
+		(gr_text "6.6675 mm"
 			(at 126.20625 72.8275 0)
 			(layer "Dwgs.User")
 			(uuid "b39c3315-6bbb-427a-9ebe-c325b832934f")
@@ -9445,7 +9549,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.675 in"
+		(gr_text "17.145 mm"
 			(at 138.1125 72.8275 0)
 			(layer "Dwgs.User")
 			(uuid "b54ee91b-9a61-49fd-925a-b3fcc34e1e20")
@@ -9483,7 +9587,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.2625 in"
+		(gr_text "6.6675 mm"
 			(at 115.2525 81.5975 90)
 			(layer "Dwgs.User")
 			(uuid "dd97464c-d2f1-48f6-bb36-d3108287b65b")
@@ -9521,7 +9625,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.3875 in"
+		(gr_text "9.8425 mm"
 			(at 119.1825 110.96625 90)
 			(layer "Dwgs.User")
 			(uuid "e364094d-025d-4595-af1f-d473813ab3ac")

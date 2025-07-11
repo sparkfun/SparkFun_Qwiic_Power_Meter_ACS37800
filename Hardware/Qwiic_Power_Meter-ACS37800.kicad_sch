@@ -6,10 +6,11 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Qwiic Power Meter ACS37800")
-		(date "2025-02-24")
+		(date "2025-07-11")
 		(rev "v10")
 		(company "SparkFun Electronics")
-		(comment 1 "Designed by: Nick Poole")
+		(comment 1 "Designed By: Nick Poole")
+		(comment 2 "Revised By: Elias Santistevan")
 	)
 	(lib_symbols
 		(symbol "SparkFun-Aesthetic:OSHW_Logo"
