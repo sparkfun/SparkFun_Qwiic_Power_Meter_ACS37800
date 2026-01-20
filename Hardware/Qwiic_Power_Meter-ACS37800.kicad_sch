@@ -4243,6 +4243,16 @@
 		)
 		(uuid "77865779-2351-4d84-8654-d41d9ba0286f")
 	)
+	(text "Make sure to keep this jumper closed. "
+		(exclude_from_sim no)
+		(at 130.81 62.865 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ec51013-24bd-4644-a0d4-702c6f514a22")
+	)
 	(text "Default 7-bit unshifted I^{2}C Addres: 0x60"
 		(exclude_from_sim no)
 		(at 90.17 83.312 0)
@@ -4564,6 +4574,16 @@
 			(type default)
 		)
 		(uuid "4b22bbaf-63de-45f3-800a-c9d0453bb1b2")
+	)
+	(polyline
+		(pts
+			(xy 108.585 62.865) (xy 111.76 62.865)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "4be9771a-d08e-490a-8475-12f8fa1f79c9")
 	)
 	(wire
 		(pts
@@ -4954,6 +4974,16 @@
 			(type default)
 		)
 		(uuid "b07b3ec3-2b13-4d6d-8188-18063f0636bc")
+	)
+	(polyline
+		(pts
+			(xy 108.585 60.325) (xy 108.585 62.865)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "b4576875-e216-4789-853b-1d0e37016533")
 	)
 	(wire
 		(pts
@@ -5892,7 +5922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "HI"
 			(at 73.66 50.7999 0)
 			(effects
 				(font
@@ -7822,6 +7852,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
@@ -8216,7 +8247,7 @@
 		(dnp no)
 		(uuid "b90c411b-4baa-42e0-8a7e-b5eab463d89f")
 		(property "Reference" "IP+1"
-			(at 78.994 42.672 0)
+			(at 78.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,6 +8260,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
@@ -9132,7 +9164,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed177d38-8081-45c0-8bd8-40768e8bc3a4")
 		(property "Reference" "J5"
 			(at 73.406 53.34 0)
@@ -9143,13 +9174,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 73.66 53.3399 0)
+		(property "Value" "LO"
+			(at 72.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:1x01"
