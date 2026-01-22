@@ -1,41 +1,28 @@
-SparkFun <PRODUCT NAME>
-========================================
+[![SparkFun Qwiic Power Meter - ACS37800](./docs/assets/img/Qwiic_Power_Meter-GH_Banner.png)](https://www.sparkfun.com/sparkfun-power-meter-acs37800-qwiic.html)
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+-----------------------------
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+The SparkFun Qwiic Power Meter - ACS37800 lets you measure voltage up to 60VDC and current up to &plusmn;30A over I<sup>2</sup>C. This board features the ACS37800 power monitor IC from Allegro Microsystems which uses a hall-effect, galvanically isolated current sensing technology to achieve reinforced isolation ratings on a small board footprint. This breakout integrates the ACS37800 into the Qwiic ecosystem to easily communicate over I<sup>2</sup>C. 
 
-<Basic description of the part.>
+Although the ACS37800 power monitoring IC is capable of monitoring AC power at high line voltages, the SparkFun Qwiic Power Meter is designed for Safety Extra Low Voltage (SELV) applications of up to 60VDC only. Its use in AC power systems is not recommended.
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
+* **/docs** - Hookup Guide files
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Library](https://github.com/sparkfun/SparkFun_ACS37800_Power_Monitor_Arduino_Library)** - Arduino library for the SparkFun Qwiic Power Meter - ACS37800.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Qwiic_Power_Meter_ACS37800)** - Basic hookup guide for the SparkFun Qwiic Power Meter - ACS37800.
+
 
 Product Versions
 ----------------
-* [Part SKU](part URL) - Basic part and short description here
-* [Retail part SKU](retail URL) - Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [SPX-17873](https://www.sparkfun.com/sparkx-power-meter-acs37800-qwiic.html) - Initial SparkX Release
+* [SEN-29259](https://www.sparkfun.com/sparkfun-power-meter-acs37800-qwiic.html) - Initial SparkFun Release
 
 License Information
 -------------------
@@ -49,5 +36,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
