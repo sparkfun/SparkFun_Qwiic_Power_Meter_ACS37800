@@ -36,4 +36,4 @@ With the power meter circuit built, let's move on to uploading code to monitor i
 * If you don't already have the RedBoard IoT - ESP32 board definition installed, you'll need to install the "esp32" boards package by Espressif Systems. Copy this JSON URL: `https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json` to the "Additional Boards Manager URLs" in the "Preferences" menu and then search for "esp32" in the [boards manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager) tool and install the latest version of the "esp32 by Espressif Systems" boards package.
 * Open Example 1 - Read Voltage Current Power.
 * Select your Board and Port and click the "Upload" button.
-* Once the code finishes uploading, open the serial monitor with the baud set to **15200** and you should see values for Volts, Amps and Watts print out every 250ms.
+* Once the code finishes uploading, open the serial monitor with the baud set to **115200** and you should see values for Volts, Amps and Watts print out every 250ms.
